@@ -1,0 +1,19 @@
+@import './Variables.sass';
+
+.react-player__preview{
+    height: 192px !important;
+}
+
+.btn-primary{
+    background-color: $black;
+    
+    &:hover{
+        background-color: $gray;
+    }
+}
+
+a{
+    &:hover{
+        text-decoration: none;
+    }
+}

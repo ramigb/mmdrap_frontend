@@ -1,0 +1,11 @@
+.songArtists a{
+    margin-right: 8px;
+}
+
+.songArtists a::after{
+    content: ',';
+}
+
+.songArtists a:last-child::after{
+    content: '.';
+}
