@@ -1,10 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom';
-import './Header.css'
 
 function Header(props) {
 
-  // const [sideBarVisible, toggleSideBar] = useState(false);
 
   return (
     <nav class="row navbar navbar-expand-lg navbar-light bg-light">
